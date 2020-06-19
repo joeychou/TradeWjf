@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+<TradeX Version="1.0">
+
+  <QsResult>
+  
+    <Func Name="QueryData-0" Desc="资金" TotalCapitalization="总资产" AvailableCapital="可用资金" MarketCapitalization="最新市值" >
+    </Func>
+
+    <Func Name="QueryData-5" Desc="股东代码" ShareHolderCode="股东代码" MarketCategory="市场类别" TradeAccount="资金账号">
+      <Qs Id="12" Name="广发证券" MarketCategory="账号类别" />
+    </Func>
+
+    <Func Name="QueryData-12" Desc="可申购新股查询" StockCode="证券代码" MaxQuantity="最高数量" MinQuantity="最低数量" IssuePrice="发行价格">
+      <Qs Id="12" Name="广发证券" IssuePrice="委托价格" />
+      <Qs Id="55" Name="华泰证券" MaxQuantity="申购上限" MinQuantity="申购下限" IssuePrice="委托价格" />
+    </Func>
+
+    <Func Name="QueryData-13" Desc="新股申购额度查询" TradeAccount="资金账号" AccountCategory="账号类别" ExchangeName="交易所名称" MarketCap="新股申购额度">
+      <Qs Id="12" Name="广发证券" MarketCap="市值额度" />
+    </Func>
+
+  </QsResult>
+
+</TradeX>

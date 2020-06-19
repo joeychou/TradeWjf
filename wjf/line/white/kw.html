@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="joeychou.me" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>kweek-line</title>
+    <link href="../css/layout.css" rel="stylesheet" />
+    <script src="/line/js/jquery-1.11.2.min.js"></script>
+    <script src="/scripts/Highstock-6.2.0/code/highstock.js"></script>
+    <script src="/line/js/kw-data.js?rnd=201811280930"></script>
+    <!--<script src="/line/libs/loading.js"></script>
+    <script src="/line/libs/util.js"></script>
+    <script src="/line/libs/absPainter.js"></script>
+    <script src="/line/libs/ajax.js"></script>
+    <script src="/line/libs/crossLines.js"></script>
+    <script src="/line/libs/axis-x.js"></script>
+    <script src="/line/libs/tip.js"></script>
+    <script src="/line/libs/linepainter.js"></script>
+    <script src="/line/libs/volumePainter.js"></script>
+    <script src="/line/libs/axis-y.js"></script>
+    <script src="/line/libs/chartEventHelper.js?abc"></script>
+    <script src="/line/libs/controller.js"></script>-->
+    <script type="text/javascript">
+        //======================来源网址
+        function getUrlParam(name) { var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); var r = window.location.search.substr(1).match(reg); if (r != null) return unescape(r[2]); return '/'; }
+        $("#stock_code").val(getUrlParam("code"));
+        $("#flag").val(getUrlParam("flag"));
+        $(function () {
+            //判断交易时间
+            is_trade_time();
+        });
+        getKLData();
+    </script>
+</head>
+<body style="padding: 0; margin: 2px">
+    <div class="w-loading"><b class="w-loading-ico"></b></div>
+    <div id="report"></div>
+    <!--<div class="wrap">
+        <canvas id="canvasKL" width="1002" height="360" style="z-index: 2; /*border: 1px solid #69c*/">
+            <p>hey,您的浏览器不支持html5，换个浏览器吧，比如google chrome，firefox</p>
+        </canvas>
+        <div id="debug"></div>
+    </div>-->
+    <input id="stock_code" type="hidden" value="000001" />
+    <input id="flag" type="hidden" value="0" />
+    <input id="hidDataInfo" type="hidden" value="" />
+    <input id="ranges" type="hidden" value="" />
+    <span style="display:none;">
+        <script src="https://s96.cnzz.com/z_stat.php?id=1275703377&web_id=1275703377" language="JavaScript"></script>
+    </span>
+</body>
+</html>

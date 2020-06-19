@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{25DCDC32-1420-416E-8529-45A708BEFB0B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wjf</RootNamespace>
+    <AssemblyName>wjf</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="ServiceStack, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ServiceStack.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.Interfaces, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ServiceStack.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="ServiceStack.ServiceInterface, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ServiceStack.ServiceInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="URLRewriter">
+      <HintPath>..\packages\URLRewriter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\wjf.dll" />
+    <Content Include="bin\wjf.pdb" />
+    <Content Include="line\auto\k.html" />
+    <Content Include="line\auto\km.html" />
+    <Content Include="line\auto\kw.html" />
+    <Content Include="line\auto\t.aspx" />
+    <Content Include="line\auto\t.html" />
+    <Content Include="line\black\km.html" />
+    <Content Include="line\black\kw.html" />
+    <Content Include="line\client\k.html" />
+    <Content Include="line\client\km.html" />
+    <Content Include="line\client\kw.html" />
+    <Content Include="line\client\t.html" />
+    <Content Include="line\css\layout.css" />
+    <Content Include="line\css\load_tired.gif" />
+    <Content Include="line\js\jquery-1.11.2.min.js" />
+    <Content Include="line\js\k-data-s.js" />
+    <Content Include="line\js\km-data-s.js" />
+    <Content Include="line\js\km-data.js" />
+    <Content Include="line\js\kw-data-s.js" />
+    <Content Include="line\js\kw-data.js" />
+    <Content Include="line\js\linepainter_client.js" />
+    <Content Include="line\js\t-data-black.js" />
+    <Content Include="line\libs\absPainterArea.js" />
+    <Content Include="line\libs\absPainter_l.js" />
+    <Content Include="line\libs\linepainter_eld.js" />
+    <Content Include="line\white\k.html" />
+    <Content Include="line\white\km.html" />
+    <Content Include="line\white\kw.html" />
+    <Content Include="line\white\t.aspx" />
+    <Content Include="line\white\t.html" />
+    <Content Include="line\white_m\k.html" />
+    <Content Include="line\white_m\km.html" />
+    <Content Include="line\white_m\kw.html" />
+    <Content Include="line\white_m\t.html" />
+    <Content Include="scripts\echarts\build\dist\chart\bar.js" />
+    <Content Include="scripts\echarts\build\dist\chart\chord.js" />
+    <Content Include="scripts\echarts\build\dist\chart\eventRiver.js" />
+    <Content Include="scripts\echarts\build\dist\chart\force.js" />
+    <Content Include="scripts\echarts\build\dist\chart\funnel.js" />
+    <Content Include="scripts\echarts\build\dist\chart\gauge.js" />
+    <Content Include="scripts\echarts\build\dist\chart\heatmap.js" />
+    <Content Include="scripts\echarts\build\dist\chart\k.js" />
+    <Content Include="scripts\echarts\build\dist\chart\line.js" />
+    <Content Include="scripts\echarts\build\dist\chart\map.js" />
+    <Content Include="scripts\echarts\build\dist\chart\pie.js" />
+    <Content Include="scripts\echarts\build\dist\chart\radar.js" />
+    <Content Include="scripts\echarts\build\dist\chart\scatter.js" />
+    <Content Include="scripts\echarts\build\dist\chart\tree.js" />
+    <Content Include="scripts\echarts\build\dist\chart\treemap.js" />
+    <Content Include="scripts\echarts\build\dist\chart\venn.js" />
+    <Content Include="scripts\echarts\build\dist\chart\wordCloud.js" />
+    <Content Include="scripts\echarts\build\dist\echarts-all.js" />
+    <Content Include="scripts\echarts\build\dist\echarts.js" />
+    <Content Include="scripts\Highstock-6.2.0\code\highstock.js" />
+    <Content Include="scripts\highstock.js" />
+    <Content Include="scripts\jquery-1.11.2.min.js" />
+    <Content Include="line\js\absPainter.js" />
+    <Content Include="line\js\absPainterArea.js" />
+    <Content Include="line\js\ajax.js" />
+    <Content Include="line\js\axis-x.js" />
+    <Content Include="line\js\axis-y.js" />
+    <Content Include="line\js\chartEventHelper.js" />
+    <Content Include="line\js\crossLines.js" />
+    <Content Include="line\js\k-data.js" />
+    <Content Include="line\libs\absPainter.js" />
+    <Content Include="line\libs\ajax.js" />
+    <Content Include="line\libs\axis-x.js" />
+    <Content Include="line\libs\axis-y.js" />
+    <Content Include="line\libs\chartEventHelper.js" />
+    <Content Include="line\libs\chartEventHelper.kl.js" />
+    <Content Include="line\libs\controller.js" />
+    <Content Include="line\libs\crossLines.js" />
+    <Content Include="line\libs\linepainter.js" />
+    <Content Include="line\libs\loading.js" />
+    <Content Include="line\libs\tip.js" />
+    <Content Include="line\libs\util.js" />
+    <Content Include="line\libs\volumePainter.js" />
+    <Content Include="line\js\linepainter.js" />
+    <Content Include="line\js\linepainter_l.js" />
+    <Content Include="line\black\k.html" />
+    <Content Include="line\black\t.html" />
+    <Content Include="line\js\mins-data.js" />
+    <Content Include="line\js\util.js" />
+    <Content Include="line\js\volumePainter.js" />
+    <Content Include="tools\rds.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="line\auto\t.aspx.cs">
+      <DependentUpon>t.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="line\auto\t.aspx.designer.cs">
+      <DependentUpon>t.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="line\white\t.aspx.cs">
+      <DependentUpon>t.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="line\white\t.aspx.designer.cs">
+      <DependentUpon>t.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tools\api_ajax.ashx.cs">
+      <DependentUpon>api_ajax.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\rds.aspx.cs">
+      <DependentUpon>rds.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tools\rds.aspx.designer.cs">
+      <DependentUpon>rds.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock.ashx.cs">
+      <DependentUpon>stock.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock_hq.ashx.cs">
+      <DependentUpon>stock_hq.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock_hq_ten.ashx.cs">
+      <DependentUpon>stock_hq_ten.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock_line_k.ashx.cs">
+      <DependentUpon>stock_line_k.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock_line_km.ashx.cs">
+      <DependentUpon>stock_line_km.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock_line_kw.ashx.cs">
+      <DependentUpon>stock_line_kw.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\stock_line_t.ashx.cs">
+      <DependentUpon>stock_line_t.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="tools\WebAsyncResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\wfj.pubxml" />
+    <Content Include="scripts\echarts\build\dist\.DS_Store" />
+    <Content Include="tools\stock_line_t.ashx" />
+    <Content Include="tools\stock_line_k.ashx" />
+    <Content Include="tools\stock.ashx" />
+    <Content Include="tools\api_ajax.ashx" />
+    <Content Include="tools\stock_hq.ashx" />
+    <Content Include="tools\stock_hq_ten.ashx" />
+    <Content Include="tools\stock_line_kw.ashx" />
+    <Content Include="tools\stock_line_km.ashx" />
+    <Content Include="TradeX-last hq-service.Json" />
+    <Content Include="TradeX-L2.ini" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="xmlconfig\phoneConfig.json" />
+    <Content Include="xmlconfig\weakpwd.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{da373fd2-e11a-4ca7-a0a1-ffbe7710eea2}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{24e43d4c-bdd1-45c4-afd1-edfeb04b0cf2}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{24ab430a-6614-4372-965f-64947b2dc1a6}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9110</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:10247/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,9 @@
+F:\项目\网际风行情接口\Model\bin\Debug\Model.dll
+F:\项目\网际风行情接口\Model\bin\Debug\Model.pdb
+F:\项目\网际风行情接口\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+F:\项目\网际风行情接口\Model\obj\Debug\Model.dll
+F:\项目\网际风行情接口\Model\obj\Debug\Model.pdb
+F:\ItemOld\项目\紫牛-网际风\Model\bin\Debug\Model.dll
+F:\ItemOld\项目\紫牛-网际风\Model\bin\Debug\Model.pdb
+F:\ItemOld\项目\紫牛-网际风\Model\obj\Debug\Model.dll
+F:\ItemOld\项目\紫牛-网际风\Model\obj\Debug\Model.pdb

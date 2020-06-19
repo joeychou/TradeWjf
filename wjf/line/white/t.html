@@ -1,0 +1,38 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="joeychou.me" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>分时</title>
+    <link href="../css/layout.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="w-loading"><b class="w-loading-ico"></b></div>
+    <div id="report"></div>
+    <input id="stock_code" type="hidden" value="000001" />
+    <input id="flag" type="hidden" value="0" />
+    <input id="hidDataInfo" type="hidden" value="" />
+    <script src="/line/js/jquery-1.11.2.min.js"></script>
+    <script src="/scripts/Highstock-6.2.0/code/highstock.js"></script>
+    <script src="/line/js/mins-data.js?rnd=201811280930"></script>
+    <script type="text/javascript">
+        //======================来源网址
+        function getUrlParam(name) { var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); var r = window.location.search.substr(1).match(reg); if (r != null) return unescape(r[2]); return '/'; }
+    </script>
+    <script type="text/javascript">
+        $("#stock_code").val(getUrlParam("code"));
+        $("#flag").val(getUrlParam("flag"));
+        //判断交易时间
+        is_trade_time();
+        //渲染canvas
+        clickTrend();
+    </script>
+    <span style="display:none;">
+        <script src="https://s96.cnzz.com/z_stat.php?id=1275703377&web_id=1275703377" language="JavaScript"></script>
+    </span>
+</body>
+</html>

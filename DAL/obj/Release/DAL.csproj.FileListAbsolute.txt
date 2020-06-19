@@ -1,0 +1,16 @@
+H:\项目\网际风行情接口\DAL\bin\Release\DAL.dll
+H:\项目\网际风行情接口\DAL\bin\Release\DAL.pdb
+H:\项目\网际风行情接口\DAL\bin\Release\DBUtility.dll
+H:\项目\网际风行情接口\DAL\bin\Release\Model.dll
+H:\项目\网际风行情接口\DAL\bin\Release\MySql.Data.dll
+H:\项目\网际风行情接口\DAL\bin\Release\Common.dll
+H:\项目\网际风行情接口\DAL\bin\Release\Newtonsoft.Json.dll
+H:\项目\网际风行情接口\DAL\bin\Release\ServiceStack.dll
+H:\项目\网际风行情接口\DAL\bin\Release\ServiceStack.Interfaces.dll
+H:\项目\网际风行情接口\DAL\bin\Release\DBUtility.pdb
+H:\项目\网际风行情接口\DAL\bin\Release\Model.pdb
+H:\项目\网际风行情接口\DAL\bin\Release\Common.pdb
+H:\项目\网际风行情接口\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache
+H:\项目\网际风行情接口\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+H:\项目\网际风行情接口\DAL\obj\Release\DAL.dll
+H:\项目\网际风行情接口\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,5 @@
+﻿ body, html {margin: 0;padding: 0;}
+ BODY,A,P,SPAN,TD {font-family: Arial, "宋体";font-size: 14px;}
+.w-loading{text-align:center;}
+.w-loading-ico{display:inline-block;vertical-align:middle;width:320px;height:245px;background:url(../css/load_tired.gif) no-repeat 0 -40px;}
+.wrap {display:none;}

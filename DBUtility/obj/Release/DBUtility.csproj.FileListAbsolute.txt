@@ -1,0 +1,9 @@
+G:\项目\金猎人\goldhtr\DBUtility\bin\Release\DBUtility.dll
+G:\项目\金猎人\goldhtr\DBUtility\bin\Release\DBUtility.pdb
+G:\项目\金猎人\goldhtr\DBUtility\bin\Release\Common.dll
+G:\项目\金猎人\goldhtr\DBUtility\bin\Release\MySql.Data.dll
+G:\项目\金猎人\goldhtr\DBUtility\bin\Release\Newtonsoft.Json.dll
+G:\项目\金猎人\goldhtr\DBUtility\bin\Release\Common.pdb
+G:\项目\金猎人\goldhtr\DBUtility\obj\Release\DBUtility.csprojResolveAssemblyReference.cache
+G:\项目\金猎人\goldhtr\DBUtility\obj\Release\DBUtility.dll
+G:\项目\金猎人\goldhtr\DBUtility\obj\Release\DBUtility.pdb

@@ -1,0 +1,295 @@
+2017/2/17 星期五 09:09:06 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:09:19 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:11:52 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:12:08 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:12:22 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:12:35 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:12:58 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:13:15 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:14:15 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:14:48 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:19:18 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:19:27 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:23:48 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:23:59 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:25:25 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 09:25:38 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 10:41:23 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 10:42:16 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 10:42:29 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 10:54:47 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:52:41 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:53:03 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:53:08 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:53:28 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:56:51 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:59:19 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 11:59:24 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:29 获取网际风股票行情数据报错：System.Data.Odbc.OdbcException (0x80131937): ERROR [HY000] [Microsoft][ODBC dBase 驱动程序] 所有记录中均未找到搜索关键字。
+   在 System.Data.Odbc.OdbcConnection.HandleError(OdbcHandle hrHandle, RetCode retcode)
+   在 System.Data.Odbc.OdbcDataReader.GetData(Int32 i, SQL_C sqlctype, Int32 cb, Int32& cbLengthOrIndicator)
+   在 System.Data.Odbc.OdbcDataReader.internalGetString(Int32 i)
+   在 System.Data.Odbc.OdbcDataReader.GetValue(Int32 i, TypeMap typemap)
+   在 System.Data.Odbc.OdbcDataReader.GetValue(Int32 i)
+   在 System.Data.Odbc.OdbcDataReader.GetValues(Object[] values)
+   在 System.Data.ProviderBase.DataReaderContainer.CommonLanguageSubsetDataReader.GetValues(Object[] values)
+   在 System.Data.ProviderBase.SchemaMapping.LoadDataRow()
+   在 System.Data.Common.DataAdapter.FillLoadDataRow(SchemaMapping mapping)
+   在 System.Data.Common.DataAdapter.FillFromReader(DataSet dataset, DataTable datatable, String srcTable, DataReaderContainer dataReader, Int32 startRecord, Int32 maxRecords, DataColumn parentChapterColumn, Object parentChapterValue)
+   在 System.Data.Common.DataAdapter.Fill(DataTable[] dataTables, IDataReader dataReader, Int32 startRecord, Int32 maxRecords)
+   在 System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   在 System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 52
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:30 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:31 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:32 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:33 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:34 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:35 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:36 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:37 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:38 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:39 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:40 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:41 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:42 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:43 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:44 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:45 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:46 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:47 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:48 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:49 获取网际风股票行情数据报错：System.InvalidOperationException: 不允许更改“ConnectionString”属性。连接的当前状态为打开。
+   在 System.Data.Odbc.OdbcConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   在 System.Data.Odbc.OdbcConnection.set_ConnectionString(String value)
+   在 Common.tasks_opt.OptApi(Object param, Boolean sign) 位置 g:\项目\网际风行情接口\wjf\Common\tasks_opt.cs:行号 47
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:00:50 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:01:25 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:27:56 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:39:25 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:39:33 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:39:51 添加响应关闭事件成功
+日志类型：操作日志
+详情：
+----------------------------------------
+2017/2/17 星期五 12:40:33 用户点击按钮关闭，退出程序。
+日志类型：操作日志
+详情：
+----------------------------------------

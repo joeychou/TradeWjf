@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+您 Web 项目的发布/打包进程将使用此文件。您可以通过编辑此 MSBuild 文件
+来自定义该进程的行为。若要了解与此相关的详细信息，请访问 http://go.microsoft.com/fwlink/?LinkID=208121。
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Debug</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>G:\项目发布\wjf</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/BLL.dll">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/BLL.pdb">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/Common.dll">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/Common.pdb">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/DAL.dll">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/DAL.pdb">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/DBUtility.dll">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/DBUtility.pdb">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/Model.dll">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/Model.pdb">
+      <publishTime>08/28/2018 14:25:06</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>05/04/2016 10:47:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>05/09/2017 19:06:36</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.dll">
+      <publishTime>12/25/2013 00:45:44</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Interfaces.dll">
+      <publishTime>12/25/2013 00:45:44</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.ServiceInterface.dll">
+      <publishTime>12/25/2013 00:45:44</publishTime>
+    </File>
+    <File Include="bin/wjf.dll">
+      <publishTime>08/28/2018 14:26:45</publishTime>
+    </File>
+    <File Include="bin/wjf.pdb">
+      <publishTime>08/28/2018 14:26:45</publishTime>
+    </File>
+    <File Include="checkcode.ashx">
+      <publishTime>03/27/2017 20:09:24</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>02/16/2017 19:58:57</publishTime>
+    </File>
+    <File Include="k_line.aspx">
+      <publishTime>03/12/2017 13:38:18</publishTime>
+    </File>
+    <File Include="line/auto/k.html">
+      <publishTime>07/13/2018 11:33:23</publishTime>
+    </File>
+    <File Include="line/auto/km.html">
+      <publishTime>07/13/2018 11:33:41</publishTime>
+    </File>
+    <File Include="line/auto/kw.html">
+      <publishTime>07/13/2018 11:33:49</publishTime>
+    </File>
+    <File Include="line/auto/t.html">
+      <publishTime>05/28/2018 09:38:54</publishTime>
+    </File>
+    <File Include="line/black/k.html">
+      <publishTime>07/26/2018 17:19:56</publishTime>
+    </File>
+    <File Include="line/black/km.html">
+      <publishTime>07/26/2018 17:20:19</publishTime>
+    </File>
+    <File Include="line/black/kw.html">
+      <publishTime>07/26/2018 17:20:20</publishTime>
+    </File>
+    <File Include="line/black/mainK.html">
+      <publishTime>07/24/2017 10:59:14</publishTime>
+    </File>
+    <File Include="line/black/mainT.html">
+      <publishTime>07/24/2017 13:55:35</publishTime>
+    </File>
+    <File Include="line/black/t.html">
+      <publishTime>07/11/2018 11:15:08</publishTime>
+    </File>
+    <File Include="line/client/k.html">
+      <publishTime>07/13/2018 11:34:30</publishTime>
+    </File>
+    <File Include="line/client/km.html">
+      <publishTime>07/13/2018 11:34:37</publishTime>
+    </File>
+    <File Include="line/client/kw.html">
+      <publishTime>07/13/2018 11:34:43</publishTime>
+    </File>
+    <File Include="line/client/t.html">
+      <publishTime>05/28/2018 09:38:36</publishTime>
+    </File>
+    <File Include="line/css/layout.css">
+      <publishTime>12/27/2017 15:25:43</publishTime>
+    </File>
+    <File Include="line/css/load_tired.gif">
+      <publishTime>12/27/2017 14:36:02</publishTime>
+    </File>
+    <File Include="line/js/absPainter.js">
+      <publishTime>07/20/2017 10:53:03</publishTime>
+    </File>
+    <File Include="line/js/absPainterArea.js">
+      <publishTime>12/05/2017 09:21:54</publishTime>
+    </File>
+    <File Include="line/js/ajax.js">
+      <publishTime>07/20/2017 10:53:03</publishTime>
+    </File>
+    <File Include="line/js/axis-x.js">
+      <publishTime>07/20/2017 10:53:03</publishTime>
+    </File>
+    <File Include="line/js/axis-y.js">
+      <publishTime>07/20/2017 10:53:04</publishTime>
+    </File>
+    <File Include="line/js/chartEventHelper.js">
+      <publishTime>07/27/2017 10:35:03</publishTime>
+    </File>
+    <File Include="line/js/crossLines.js">
+      <publishTime>07/20/2017 10:53:04</publishTime>
+    </File>
+    <File Include="line/js/jquery-1.11.2.min.js">
+      <publishTime>07/20/2017 10:58:19</publishTime>
+    </File>
+    <File Include="line/js/k-data.js">
+      <publishTime>07/26/2018 17:04:18</publishTime>
+    </File>
+    <File Include="line/js/km-data.js">
+      <publishTime>07/13/2018 11:36:25</publishTime>
+    </File>
+    <File Include="line/js/kw-data.js">
+      <publishTime>07/13/2018 11:36:30</publishTime>
+    </File>
+    <File Include="line/js/linepainter.js">
+      <publishTime>07/20/2017 10:53:04</publishTime>
+    </File>
+    <File Include="line/js/linepainter_client.js">
+      <publishTime>12/05/2017 09:22:58</publishTime>
+    </File>
+    <File Include="line/js/linepainter_l.js">
+      <publishTime>12/29/2017 13:43:35</publishTime>
+    </File>
+    <File Include="line/js/mins-data.js">
+      <publishTime>07/20/2018 13:17:48</publishTime>
+    </File>
+    <File Include="line/js/t-data-black.js">
+      <publishTime>07/11/2018 11:17:00</publishTime>
+    </File>
+    <File Include="line/js/util.js">
+      <publishTime>07/21/2017 15:25:28</publishTime>
+    </File>
+    <File Include="line/js/volumePainter.js">
+      <publishTime>07/20/2017 10:53:04</publishTime>
+    </File>
+    <File Include="line/libs/absPainter.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/absPainterArea.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/absPainter_l.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/ajax.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/axis-x.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/axis-y.js">
+      <publishTime>10/12/2017 15:44:32</publishTime>
+    </File>
+    <File Include="line/libs/chartEventHelper.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/chartEventHelper.kl.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/controller.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/crossLines.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/linepainter.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/linepainter_eld.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/loading.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/tip.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/util.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/libs/volumePainter.js">
+      <publishTime>10/12/2017 11:12:56</publishTime>
+    </File>
+    <File Include="line/white/k.html">
+      <publishTime>07/13/2018 11:35:42</publishTime>
+    </File>
+    <File Include="line/white/km.html">
+      <publishTime>07/13/2018 11:35:23</publishTime>
+    </File>
+    <File Include="line/white/kw.html">
+      <publishTime>06/15/2018 14:01:17</publishTime>
+    </File>
+    <File Include="line/white/mainT.html">
+      <publishTime>07/24/2017 15:16:19</publishTime>
+    </File>
+    <File Include="line/white/t.html">
+      <publishTime>05/28/2018 09:38:24</publishTime>
+    </File>
+    <File Include="line/white_m/k.html">
+      <publishTime>06/15/2018 14:01:17</publishTime>
+    </File>
+    <File Include="line/white_m/km.html">
+      <publishTime>06/15/2018 14:40:04</publishTime>
+    </File>
+    <File Include="line/white_m/kw.html">
+      <publishTime>06/15/2018 14:01:17</publishTime>
+    </File>
+    <File Include="line/white_m/t.html">
+      <publishTime>05/28/2018 09:38:11</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/.DS_Store">
+      <publishTime>03/12/2017 13:22:47</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/bar.js">
+      <publishTime>03/12/2017 13:22:47</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/chord.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/eventRiver.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/force.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/funnel.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/gauge.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/heatmap.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/k.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/line.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/map.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/pie.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/radar.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/scatter.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/tree.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/treemap.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/venn.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/chart/wordCloud.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/echarts-all.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/echarts/build/dist/echarts.js">
+      <publishTime>03/12/2017 13:22:48</publishTime>
+    </File>
+    <File Include="scripts/jquery-1.11.2.min.js">
+      <publishTime>03/12/2017 13:22:39</publishTime>
+    </File>
+    <File Include="stock.ashx">
+      <publishTime>02/16/2017 18:22:56</publishTime>
+    </File>
+    <File Include="stock_con_op.ashx">
+      <publishTime>03/12/2017 12:04:34</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>06/27/2017 11:20:57</publishTime>
+    </File>
+    <File Include="tools/api_ajax.ashx">
+      <publishTime>07/20/2017 14:20:43</publishTime>
+    </File>
+    <File Include="tools/rds.aspx">
+      <publishTime>10/16/2017 14:53:37</publishTime>
+    </File>
+    <File Include="tools/stock.ashx">
+      <publishTime>07/20/2017 13:46:22</publishTime>
+    </File>
+    <File Include="tools/stock_hq.ashx">
+      <publishTime>10/18/2017 09:22:26</publishTime>
+    </File>
+    <File Include="tools/stock_hq_ten.ashx">
+      <publishTime>10/30/2017 20:17:07</publishTime>
+    </File>
+    <File Include="tools/stock_line_k.ashx">
+      <publishTime>07/20/2017 13:44:35</publishTime>
+    </File>
+    <File Include="tools/stock_line_km.ashx">
+      <publishTime>11/03/2017 08:34:47</publishTime>
+    </File>
+    <File Include="tools/stock_line_kw.ashx">
+      <publishTime>11/03/2017 08:34:39</publishTime>
+    </File>
+    <File Include="tools/stock_line_t.ashx">
+      <publishTime>07/20/2017 13:43:10</publishTime>
+    </File>
+    <File Include="TradeX-L2.ini">
+      <publishTime>08/27/2018 14:41:22</publishTime>
+    </File>
+    <File Include="TradeX-last hq-service.Json">
+      <publishTime>08/24/2018 09:45:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/28/2018 14:27:39</publishTime>
+    </File>
+    <File Include="xmlconfig/phoneConfig.json">
+      <publishTime>06/13/2018 18:18:33</publishTime>
+    </File>
+    <File Include="xmlconfig/weakpwd.json">
+      <publishTime>08/27/2018 16:23:42</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
