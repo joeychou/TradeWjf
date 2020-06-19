@@ -237,7 +237,8 @@ namespace DBUtility
         /// <param name="SQLStringList">多条SQL语句</param>		
         public static int ExecuteSqlTranTo(List<String> SQLStringList)
         {
-            string ConnectionStringTo = Common.Utils.ConnDecrypt(ConfigurationManager.AppSettings["ConnectionStringTo"].ToString());
+            //string ConnectionStringTo = Common.Utils.ConnDecrypt(ConfigurationManager.AppSettings["ConnectionStringTo"].ToString());
+            string ConnectionStringTo = Common.Utils.ConnDecrypt("server=rm-wz9qcrn64tu36256mto.mysql.rds.aliyuncs.com;uid=yunwei;pwd=43F32D31E8C388228C5A1A99EB51BA21;database=trandemoniter;pooling=true;Port=3306;Charset=gbk;");
             using (MySqlConnection conn = new MySqlConnection(ConnectionStringTo))
             {
                 conn.Open();

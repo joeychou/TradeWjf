@@ -134,6 +134,53 @@ namespace BLL
                 {
                     Log.WriteLog("除权降息", "除权信息");
                     List<string> stringLot = new List<string>();
+                    BinaryReader sReader = new BinaryReader(File.Open(@"C:\股本变迁.TDX", FileMode.Open));
+                    long lgt = sReader.BaseStream.Length;
+                    long j = 0, z = lgt / 29;
+                    sReader.BaseStream.Position = 29;
+                    int dtt = Utils.StrToInt(DateTime.Now.AddDays(-2).ToString("yyyyMMdd"), 0);
+                    for (int i = 0; i < z; i++)
+                    {
+                        j += 29;
+                        if (i > 0)
+                        {
+                            string sc = Encoding.UTF8.GetString(sReader.ReadBytes(1)).ToLower();
+                            string stock_code = Encoding.UTF8.GetString(sReader.ReadBytes(6)).ToLower();
+                            string lit = Encoding.UTF8.GetString(sReader.ReadBytes(1)).ToLower();
+                            int rd_deal = sReader.ReadInt32();
+                            //float RQ = sReader.ReadSingle();
+                            string xxlx = Encoding.UTF8.GetString(sReader.ReadBytes(1));
+                            float F1 = sReader.ReadSingle();//每10股派几元
+                            float F2 = sReader.ReadSingle();//配股价
+                            float F3 = sReader.ReadSingle();//每10股送几股
+                            float F4 = sReader.ReadSingle();//每10股配几股
+                            float floatCount = F1 + F2 + F3 + F4;
+                            if (stock_code.Length == 6 && rd_deal > dtt && floatCount < 2000)
+                            {
+                                float m_fProfit = F1;//每股红利
+                                float m_fGive = F3;//每股送
+                                string rd_txt = "";
+                                if (m_fGive > 0)
+                                {
+                                    rd_txt = "10送" + (m_fGive * 10) + "股";
+                                }
+                                if (m_fProfit > 0)
+                                {
+                                    rd_txt += "10派" + (m_fProfit * 10) + "元(含税)";
+                                }
+                                stringLot.Add("update sys_stock_code set rd_deal='" + rd_deal.ToString("yyyy-MM-dd HH:mm:ss") + "',rd_num="
+                                    + m_fGive + ",rd_money=" + m_fProfit + ",rd_txt='" + rd_txt + "',input_time=now() where stock_code='" + stock_code + "';");
+
+                                //Log.WriteLog("除权降息，手动操作", $"sc={sc},stock_code={stock_code},RQ={rd_deal},xxlx={xxlx},m_fProfit={m_fProfit},m_fGive={m_fGive},F3={F3},F4={F4},i={i},z={z},lgt={lgt}");
+                            }
+                        }
+                    }
+                    sReader.Close();
+                    int num = dal.TranLot(stringLot);
+                    int num2 = dal.TranLotTo(stringLot);
+                    Log.WriteLog("通达信除权降息，手动操作", $"{string.Join("*******", stringLot.ToArray())}");
+                    /*
+                    List<string> stringLot = new List<string>();
                     string path = ConfigurationManager.AppSettings["file_path_rd"];//数据位置
                     BinaryReader sReader = new BinaryReader(File.Open(path, FileMode.Open));
                     sReader.BaseStream.Position = 12;
@@ -175,6 +222,7 @@ namespace BLL
                     int num2 = dal.TranLotTo(stringLot);
                     RunEndCheck(string.Format("除权除息共:{0}条", num));
                     Log.WriteLog("除权除息", "共" + num + "条");
+                    */
                 }
             }
             catch (Exception ex)
