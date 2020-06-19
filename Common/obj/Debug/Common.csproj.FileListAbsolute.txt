@@ -40,3 +40,10 @@ D:\core.trade\TradeWjf\TradeWjf\Common\obj\Debug\Common.csproj.CoreCompileInputs
 D:\core.trade\TradeWjf\TradeWjf\Common\obj\Debug\Common.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\Common\obj\Debug\Common.dll
 D:\core.trade\TradeWjf\TradeWjf\Common\obj\Debug\Common.pdb
+D:\work.trade\tradewjf\TradeWjf\Common\bin\Debug\Common.dll
+D:\work.trade\tradewjf\TradeWjf\Common\bin\Debug\Common.pdb
+D:\work.trade\tradewjf\TradeWjf\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\work.trade\tradewjf\TradeWjf\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\work.trade\tradewjf\TradeWjf\Common\obj\Debug\Common.csproj.CopyComplete
+D:\work.trade\tradewjf\TradeWjf\Common\obj\Debug\Common.dll
+D:\work.trade\tradewjf\TradeWjf\Common\obj\Debug\Common.pdb

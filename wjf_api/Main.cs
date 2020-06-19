@@ -350,14 +350,14 @@ namespace wjf_api
                             string rd_txt = "";
                             if (m_fGive > 0)
                             {
-                                rd_txt = "10送" + (m_fGive * 10) + "股";
+                                rd_txt = "10送" + (m_fGive) + "股";
                             }
                             if (m_fProfit > 0)
                             {
-                                rd_txt += "10派" + (m_fProfit * 10) + "元(含税)";
+                                rd_txt += "10派" + (m_fProfit) + "元(含税)";
                             }
-                            stringLot.Add("update sys_stock_code set rd_deal='" + rd_deal.ToString("yyyy-MM-dd HH:mm:ss") + "',rd_num="
-                                + m_fGive + ",rd_money=" + m_fProfit + ",rd_txt='" + rd_txt + "',input_time=now() where stock_code='" + stock_code + "';");
+                            stringLot.Add("update sys_stock_code set rd_deal='" +Utils.StrToDateTime(rd_deal.ToString()).ToString("yyyy-MM-dd HH:mm:ss") + "',rd_num="
+                                + (m_fGive/10) + ",rd_money=" + (m_fProfit/10) + ",rd_txt='" + rd_txt + "',input_time=now() where stock_code='" + stock_code + "';");
 
                             //Log.WriteLog("除权降息，手动操作", $"sc={sc},stock_code={stock_code},RQ={rd_deal},xxlx={xxlx},m_fProfit={m_fProfit},m_fGive={m_fGive},F3={F3},F4={F4},i={i},z={z},lgt={lgt}");
                         }

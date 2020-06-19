@@ -33,3 +33,15 @@ D:\core.trade\TradeWjf\TradeWjf\DBUtility\obj\Debug\DBUtility.csproj.CoreCompile
 D:\core.trade\TradeWjf\TradeWjf\DBUtility\obj\Debug\DBUtility.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\DBUtility\obj\Debug\DBUtility.dll
 D:\core.trade\TradeWjf\TradeWjf\DBUtility\obj\Debug\DBUtility.pdb
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\DBUtility.dll
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\DBUtility.pdb
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\Common.dll
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\ServiceStack.dll
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\Newtonsoft.Json.dll
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\ServiceStack.Interfaces.dll
+D:\work.trade\tradewjf\TradeWjf\DBUtility\bin\Debug\Common.pdb
+D:\work.trade\tradewjf\TradeWjf\DBUtility\obj\Debug\DBUtility.csprojAssemblyReference.cache
+D:\work.trade\tradewjf\TradeWjf\DBUtility\obj\Debug\DBUtility.csproj.CoreCompileInputs.cache
+D:\work.trade\tradewjf\TradeWjf\DBUtility\obj\Debug\DBUtility.csproj.CopyComplete
+D:\work.trade\tradewjf\TradeWjf\DBUtility\obj\Debug\DBUtility.dll
+D:\work.trade\tradewjf\TradeWjf\DBUtility\obj\Debug\DBUtility.pdb
