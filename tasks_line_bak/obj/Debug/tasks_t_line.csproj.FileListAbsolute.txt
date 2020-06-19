@@ -120,7 +120,6 @@ D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Common.pdb
 D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\DAL.pdb
 D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Model.pdb
 D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\DBUtility.pdb
-D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csprojAssemblyReference.cache
 D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.CoreCompileInputs.cache
 D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.CopyComplete
 D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.exe

@@ -119,7 +119,6 @@ D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Common.pdb
 D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\DAL.pdb
 D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Model.pdb
 D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\DBUtility.pdb
-D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csprojAssemblyReference.cache
 D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.CoreCompileInputs.cache
 D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.CopyComplete
 D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.exe
