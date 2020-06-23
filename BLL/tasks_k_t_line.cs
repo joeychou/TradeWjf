@@ -267,11 +267,11 @@ namespace BLL
                         int SSDATE = Utils.StrToInt(dr["SSDATE"].ToString(), 0);
                         if (SSDATE > DATENOW)
                         {
-                            stringLot.Add("update sys_stock_code set remark='" + dr["SSDATE"].ToString() + "',input_time=now() where stock_code='" + dr["GPDM"]
-                                + "' and rd_decl<='1990-01-01';");
+                            stringLot.Add($"update sys_stock_code set remark='{dr["SSDATE"].ToString()}',input_time=now() where stock_code='{dr["GPDM"]}';");
+                            stringLot.Add($"update sys_stock_code set rd_decl=remark where stock_code='{dr["GPDM"]}';");
                         }
                     }
-                    stringLot.Add("update sys_stock_code set rd_decl=remark;");
+                    
                     int num = dal.TranLot(stringLot);
                     int num2 = dal.TranLotTo(stringLot);
                     RunEndCheck(string.Format("更新基本面资料共:{0}条", num));
