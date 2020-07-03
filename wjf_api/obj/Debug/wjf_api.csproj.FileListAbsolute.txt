@@ -141,4 +141,32 @@ D:\core.trade\TradeWjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csproj.CoreCompileInpu
 D:\core.trade\TradeWjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\wjf_api\obj\Debug\wjf_api.exe
 D:\core.trade\TradeWjf\TradeWjf\wjf_api\obj\Debug\wjf_api.pdb
+<<<<<<< HEAD
 D:\core.trade\TradeWjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csprojAssemblyReference.cache
+=======
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\wjf_api.exe.config
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\wjf_api.exe
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\wjf_api.pdb
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\BLL.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\Common.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\Model.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\DAL.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\ServiceStack.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\Newtonsoft.Json.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\ServiceStack.Interfaces.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\MySql.Data.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\DBUtility.dll
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\BLL.pdb
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\Common.pdb
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\Model.pdb
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\DAL.pdb
+D:\work.trade\tradewjf\TradeWjf\wjf_api\bin\Debug\DBUtility.pdb
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csprojAssemblyReference.cache
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.Main.resources
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.Properties.Resources.resources
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csproj.GenerateResource.cache
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csproj.CoreCompileInputs.cache
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.csproj.CopyComplete
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.exe
+D:\work.trade\tradewjf\TradeWjf\wjf_api\obj\Debug\wjf_api.pdb
+>>>>>>> ec41c6613aac6a48dfa21db4f6e1188ad2ee4a42

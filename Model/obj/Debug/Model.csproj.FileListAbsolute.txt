@@ -12,3 +12,9 @@ D:\core.trade\TradeWjf\TradeWjf\Model\bin\Debug\Model.pdb
 D:\core.trade\TradeWjf\TradeWjf\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 D:\core.trade\TradeWjf\TradeWjf\Model\obj\Debug\Model.dll
 D:\core.trade\TradeWjf\TradeWjf\Model\obj\Debug\Model.pdb
+D:\work.trade\tradewjf\TradeWjf\Model\bin\Debug\Model.dll
+D:\work.trade\tradewjf\TradeWjf\Model\bin\Debug\Model.pdb
+D:\work.trade\tradewjf\TradeWjf\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\work.trade\tradewjf\TradeWjf\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\work.trade\tradewjf\TradeWjf\Model\obj\Debug\Model.dll
+D:\work.trade\tradewjf\TradeWjf\Model\obj\Debug\Model.pdb

@@ -103,4 +103,28 @@ D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.Cor
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.exe
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.pdb
+<<<<<<< HEAD
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csprojAssemblyReference.cache
+=======
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\tasks_t_line.exe.config
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\tasks_t_line.exe
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\tasks_t_line.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\BLL.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Common.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\DAL.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Model.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\ServiceStack.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Newtonsoft.Json.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\ServiceStack.Interfaces.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\MySql.Data.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\DBUtility.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\BLL.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Common.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\DAL.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\Model.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\bin\Debug\DBUtility.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.CoreCompileInputs.cache
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.CopyComplete
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.exe
+D:\work.trade\tradewjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.pdb
+>>>>>>> ec41c6613aac6a48dfa21db4f6e1188ad2ee4a42

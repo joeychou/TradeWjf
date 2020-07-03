@@ -101,3 +101,28 @@ D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.Cor
 D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.exe
 D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.pdb
+<<<<<<< HEAD
+=======
+D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csprojAssemblyReference.cache
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\tasks_opt_lot.exe.config
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\tasks_opt_lot.exe
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\tasks_opt_lot.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\BLL.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Common.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\DAL.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Model.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\ServiceStack.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Newtonsoft.Json.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\ServiceStack.Interfaces.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\MySql.Data.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\DBUtility.dll
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\BLL.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Common.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\DAL.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\Model.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\bin\Debug\DBUtility.pdb
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.CoreCompileInputs.cache
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.CopyComplete
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.exe
+D:\work.trade\tradewjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.pdb
+>>>>>>> ec41c6613aac6a48dfa21db4f6e1188ad2ee4a42
