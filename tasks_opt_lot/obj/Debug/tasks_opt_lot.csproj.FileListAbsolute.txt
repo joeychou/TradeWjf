@@ -101,4 +101,3 @@ D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.Cor
 D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.exe
 D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.pdb
-D:\core.trade\TradeWjf\TradeWjf\tasks_opt_lot\obj\Debug\tasks_opt_lot.csprojAssemblyReference.cache

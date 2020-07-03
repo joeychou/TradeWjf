@@ -33,7 +33,7 @@ namespace BLL
         public void Action()
         {
             AutoResetEvent ar = new AutoResetEvent(false);
-            ThreadPool.RegisterWaitForSingleObject(ar, OptOpenHq, null, 10 * 1000, false);//每3秒钟执行一次
+            //ThreadPool.RegisterWaitForSingleObject(ar, OptOpenHq, null, 10 * 1000, false);//每3秒钟执行一次
             ThreadPool.RegisterWaitForSingleObject(ar, OptStockT, null, 10 * 1000, false);//每45秒钟执行一次
             //ThreadPool.RegisterWaitForSingleObject(ar, OptStockK, null, 30 * 60 * 1000, false);//每10分钟执行一次
             ThreadPool.RegisterWaitForSingleObject(ar, OptStockTClear, null, 5 * 60 * 1000, false);//每10分钟执行一次
@@ -132,7 +132,7 @@ namespace BLL
                 DateTime trade_time = Convert.ToDateTime(dt.ToString("HH:mm:ss"));
                 if (trade_time >= Convert.ToDateTime("16:10:00") && trade_time < Convert.ToDateTime("16:20:01"))
                 {
-                    Log.WriteLog("除权降息", "除权信息");
+                    /*Log.WriteLog("除权降息", "除权信息");
                     List<string> stringLot = new List<string>();
                     BinaryReader sReader = new BinaryReader(File.Open(@"C:\股本变迁.TDX", FileMode.Open));
                     long lgt = sReader.BaseStream.Length;
@@ -179,7 +179,7 @@ namespace BLL
                     int num = dal.TranLot(stringLot);
                     int num2 = dal.TranLotTo(stringLot);
                     Log.WriteLog("通达信除权降息，手动操作", $"{string.Join("*******", stringLot.ToArray())}");
-                    /*
+                    */
                     List<string> stringLot = new List<string>();
                     string path = ConfigurationManager.AppSettings["file_path_rd"];//数据位置
                     BinaryReader sReader = new BinaryReader(File.Open(path, FileMode.Open));
@@ -222,7 +222,6 @@ namespace BLL
                     int num2 = dal.TranLotTo(stringLot);
                     RunEndCheck(string.Format("除权除息共:{0}条", num));
                     Log.WriteLog("除权除息", "共" + num + "条");
-                    */
                 }
             }
             catch (Exception ex)
@@ -267,11 +266,11 @@ namespace BLL
                         int SSDATE = Utils.StrToInt(dr["SSDATE"].ToString(), 0);
                         if (SSDATE > DATENOW)
                         {
-                            stringLot.Add("update sys_stock_code set remark='" + dr["SSDATE"].ToString() + "',input_time=now() where stock_code='" + dr["GPDM"]
-                                + "' and rd_decl<='1990-01-01';");
+                            stringLot.Add($"update sys_stock_code set remark='{dr["SSDATE"].ToString()}',input_time=now() where stock_code='{dr["GPDM"]}';");
+                            stringLot.Add($"update sys_stock_code set rd_decl=remark where stock_code='{dr["GPDM"]}';");
                         }
                     }
-                    stringLot.Add("update sys_stock_code set rd_decl=remark;");
+
                     int num = dal.TranLot(stringLot);
                     int num2 = dal.TranLotTo(stringLot);
                     RunEndCheck(string.Format("更新基本面资料共:{0}条", num));
