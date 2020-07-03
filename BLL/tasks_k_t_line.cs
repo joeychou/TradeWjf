@@ -270,11 +270,6 @@ namespace BLL
                             stringLot.Add($"update sys_stock_code set rd_decl=remark where stock_code='{dr["GPDM"]}';");
                         }
                     }
-<<<<<<< HEAD
-
-=======
-                    
->>>>>>> ec41c6613aac6a48dfa21db4f6e1188ad2ee4a42
                     int num = dal.TranLot(stringLot);
                     int num2 = dal.TranLotTo(stringLot);
                     RunEndCheck(string.Format("更新基本面资料共:{0}条", num));
