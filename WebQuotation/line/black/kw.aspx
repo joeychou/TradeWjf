@@ -11,7 +11,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="telephone=no" />
     <title>k线图手机版</title>
-    <link href="//js.qianniusoft.com/layout.css" rel="stylesheet" />
+    <link href="//js.zouhongsoft.com/layout.css" rel="stylesheet" />
 </head>
 <body onload="drawKL()" style="padding: 0; margin: 0px">
     <div class="w-loading"><b class="w-loading-ico"></b></div>
@@ -28,38 +28,38 @@
     <input id="token" type="hidden" value="<%=token%>" />
     <input id="hidDataInfo" type="hidden" value="" />
     <input id="ranges" type="hidden" value="" />
-    <script type="text/javascript" src="//js.qianniusoft.com/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="//js.zouhongsoft.com/scripts/jquery-1.11.2.min.js"></script>
     <%if (Common.Utils.IsTradeTimeCK() == 1)
         { %>
-    <script src="//js.qianniusoft.com/scripts/js/kw-data-s.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/loading.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/util.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/absPainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/ajax.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/crossLines.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/axis-x.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/tip.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/linepainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/volumePainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/axis-y.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/chartEventHelper.kl.js?a2"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/controller.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/kw-data-s.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/loading.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/util.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/absPainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/ajax.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/crossLines.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/axis-x.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/tip.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/linepainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/volumePainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/axis-y.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/chartEventHelper.kl.js?a2"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/controller.js"></script>
     <%}
         else
         { %>
-    <script src="//js.qianniusoft.com/scripts/js/kw-data-s.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/loading.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/util.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/absPainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/ajax.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/crossLines.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/axis-x.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/tip.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/linepainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/volumePainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/axis-y.js"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/chartEventHelper.kl.js?a2"></script>
-    <script src="//js.qianniusoft.com/scripts/libs/controller.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/kw-data-s.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/loading.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/util.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/absPainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/ajax.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/crossLines.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/axis-x.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/tip.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/linepainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/volumePainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/axis-y.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/chartEventHelper.kl.js?a2"></script>
+    <script src="//js.zouhongsoft.com/scripts/libs/controller.js"></script>
     <%} %>
     <script type="text/javascript">
         function convertDate(val, withWeek) {

@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
     <title>分时图</title>
-    <link href="//js.qianniusoft.com/layout.css" rel="stylesheet" />
+    <link href="//js.zouhongsoft.com/layout.css" rel="stylesheet" />
 </head>
 <body style="margin: 0; padding: 0;">
     <div class="w-loading"><b class="w-loading-ico"></b></div>
@@ -27,38 +27,38 @@
     <input id="time" type="hidden" value="<%=time%>" />
     <input id="token" type="hidden" value="<%=token%>" />
     <input id="hidDataInfo" type="hidden" value="" />
-    <script type="text/javascript" src="//js.qianniusoft.com/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="//js.zouhongsoft.com/scripts/jquery-1.11.2.min.js"></script>
     <%if (Common.Utils.IsTradeTimeCK() == 1)
         { %>
-    <script src="//js.qianniusoft.com/scripts/js/absPainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/absPainterArea.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/util.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/absPainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/ajax.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/crossLines.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/axis-x.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/linepainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/linepainter_l.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/volumePainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/axis-y.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/chartEventHelper.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/t-data-black.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/absPainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/absPainterArea.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/util.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/absPainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/ajax.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/crossLines.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/axis-x.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/linepainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/linepainter_l.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/volumePainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/axis-y.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/chartEventHelper.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/t-data-black.js"></script>
     <%}
         else
         { %>
-    <script src="//js.qianniusoft.com/scripts/js/absPainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/absPainterArea.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/util.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/absPainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/ajax.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/crossLines.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/axis-x.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/linepainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/linepainter_l.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/volumePainter.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/axis-y.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/chartEventHelper.js"></script>
-    <script src="//js.qianniusoft.com/scripts/js/t-data-black.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/absPainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/absPainterArea.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/util.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/absPainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/ajax.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/crossLines.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/axis-x.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/linepainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/linepainter_l.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/volumePainter.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/axis-y.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/chartEventHelper.js"></script>
+    <script src="//js.zouhongsoft.com/scripts/js/t-data-black.js"></script>
     <%} %>
     <!---->
     <script type="text/javascript">

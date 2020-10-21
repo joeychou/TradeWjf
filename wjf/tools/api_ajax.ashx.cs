@@ -53,7 +53,7 @@ namespace wjf.tools
                 }
                 if (pwd.Length != 32)
                 {
-                    string ckStatus = Utils.HttpGetUtf("http://monitor.qianniusoft.com/api/userWeakpwd/ckUserWeakPwd?password=" + pwd);
+                    string ckStatus = Utils.HttpGetUtf("http://monitor.zouhongsoft.com/api/userWeakpwd/ckUserWeakPwd?password=" + pwd);
                     Dictionary<string, object> dicCK = JsonHelper.DataRowFromJSON(ckStatus);
                     if (dicCK.Count > 0)
                     {
@@ -102,7 +102,7 @@ namespace wjf.tools
                     context.Response.Write(JsonHelper.ObjectToJSON(new { succeess = false, msg = "注册失败，网络错误" }));
                     return;
                 }
-                //string ckStatus = Utils.HttpGetUtf("http://monitor.qianniusoft.com/api/userBlacklist/ckUserBlackList?UserPhone=" + phone);
+                //string ckStatus = Utils.HttpGetUtf("http://monitor.zouhongsoft.com/api/userBlacklist/ckUserBlackList?UserPhone=" + phone);
                 //Dictionary<string, object> dicCK = JsonHelper.DataRowFromJSON(ckStatus);
                 //if (dicCK.Count > 0)
                 //{

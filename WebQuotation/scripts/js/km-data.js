@@ -1,4 +1,4 @@
-﻿var api_domain_url = "https://quotation.qianniusoft.com/";
+﻿var api_domain_url = "https://quotation.zouhongsoft.com/";
 
 var ohlc = [], volume = [];
 

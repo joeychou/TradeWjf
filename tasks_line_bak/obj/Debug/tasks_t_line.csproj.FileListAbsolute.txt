@@ -19,4 +19,3 @@ D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.Cor
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csproj.CopyComplete
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.exe
 D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.pdb
-D:\core.trade\TradeWjf\TradeWjf\tasks_line_bak\obj\Debug\tasks_t_line.csprojAssemblyReference.cache

@@ -298,7 +298,7 @@ namespace BLL
                 DateTime trade_time = Convert.ToDateTime(dt.ToString("HH:mm:ss"));
                 if (trade_time >= Convert.ToDateTime("08:30:00") && trade_time < Convert.ToDateTime("18:40:01"))
                 {
-                    var stockInfo = Utils.GetHttpData("https://eastmoney.qianniusoft.com/tools/api_ajax.ashx?act=stock_exit");
+                    var stockInfo = Utils.GetHttpData("https://eastmoney.zouhongsoft.com/tools/api_ajax.ashx?act=stock_exit");
                     if (!string.IsNullOrEmpty(stockInfo))
                     {
                         var stockList = stockInfo.Split(',');

@@ -10,7 +10,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="format-detection" content="telephone=no" />
-    <link href="https://js.qianniusoft.com/layout.css" rel="stylesheet" />
+    <link href="https://js.zouhongsoft.com/layout.css" rel="stylesheet" />
     <title>分时图</title>
 </head>
 <body>
@@ -24,16 +24,16 @@
     <input id="time" type="hidden" value="<%=time%>" />
     <input id="token" type="hidden" value="<%=token%>" />
     <input id="hidDataInfo" type="hidden" value="" />
-    <script type="text/javascript" src="https://js.qianniusoft.com/scripts/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="https://js.zouhongsoft.com/scripts/jquery-1.11.2.min.js"></script>
     <%if (Common.Utils.IsTradeTimeCK() == 1)
         { %>
-    <script src="https://js.qianniusoft.com/highstock.js"></script>
-    <script src="https://js.qianniusoft.com/mins-data.js?rnd=201907011528"></script>
+    <script src="https://js.zouhongsoft.com/highstock.js"></script>
+    <script src="https://js.zouhongsoft.com/mins-data.js?rnd=201907011528"></script>
     <%}
         else
         { %>
-    <script src="https://js.qianniusoft.com/highstock.js"></script>
-    <script src="https://js.qianniusoft.com/mins-data.js?rnd=201907011528"></script>
+    <script src="https://js.zouhongsoft.com/highstock.js"></script>
+    <script src="https://js.zouhongsoft.com/mins-data.js?rnd=201907011528"></script>
     <%} %>
     <script type="text/javascript">
         var setHeight = $(window).height() - 10;
